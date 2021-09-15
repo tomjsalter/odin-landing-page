@@ -37,7 +37,6 @@ button {
 .top-banner-cta {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 h1 {
@@ -53,10 +52,40 @@ li {
     list-style-type: none;
 }
 
-h2 {
+.top-banner-nav {
+    align-items: baseline;
+}
+
+.top-banner-cta {
+    align-items: flex-start;
+    column-gap: 20px;
+}
+ 
+.left-cta {
+    flex: 1 1;
+}
+
+.cta-head {
     font-size: 2.6em;
 }
 
 .cta-text {
     color: #e5e7eb;
+    margin-top: 10px;
+}
+
+.cta-btn {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.cta-img {
+    height: 250px;
+    width: auto;
+    text-align: center;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
 }
