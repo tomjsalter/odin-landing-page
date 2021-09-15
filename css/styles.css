@@ -18,7 +18,7 @@ footer {
 button {
     background-color: #3882f6;
     color: white;
-    padding: 6px 22px;
+    padding: 8px 22px;
     border-radius: 6px;
     border: none;
 }
@@ -29,7 +29,7 @@ button {
     flex-direction: column;
     max-width: 1080px;
     margin: auto;
-    padding: 20px 15px;
+    padding: 20px 15px 80px;
     row-gap: 80px;
 }
 
@@ -61,17 +61,18 @@ li {
     column-gap: 20px;
 }
  
-.left-cta {
+.cta-info {
     flex: 1 1;
 }
 
 .cta-head {
     font-size: 2.6em;
+    line-height: 1;
 }
 
 .cta-text {
     color: #e5e7eb;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .cta-btn {
@@ -82,10 +83,49 @@ li {
 .cta-img {
     height: 250px;
     width: auto;
-    text-align: center;
     background-color: #3882f6;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1 1;
+}
+
+
+/* BENEFITS BANNER */
+.benefits-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 30px auto;
+    padding: 20px 15px 80px;
+    row-gap: 50px;
+}
+
+.benefits-head {
+    font-size: 2em;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    column-gap: 30px;
+}
+
+.benefits-img {
+    height: 170px;
+    width: 170px;
+    border: 1px solid #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
