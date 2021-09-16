@@ -116,10 +116,12 @@ li {
 .benefits-img {
     height: 170px;
     width: 170px;
-    border: 1px solid #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .benefits-item {
@@ -128,4 +130,56 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* QUOTE BANNER */
+.quote-banner {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 1080px;
+    padding: 20px 15px 20px;
+    margin: 30px auto;
+}
+
+.quote-text {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.quote-auth {
+    font-weight: 700;
+}
+
+
+/* SIGN UP */
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #3882f6;
+    max-width: 1080px;
+    padding: 20px 15px 20px;
+    margin: 30px auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.signup-head {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.signup-text {
+    font-weight: 300;
 }
